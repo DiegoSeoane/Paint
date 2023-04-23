@@ -134,5 +134,17 @@ public class Debuxo implements Serializable {
     public int hashCode() {
         return super.hashCode();
     }
+
+    @Override
+    public String toString() {
+        return nome;
+    }
     
+    public void loadDebuxoFromFile(File f){
+        
+    }
+    public void saveDebuxoToFile(File f){
+        
+    }
+
 }
